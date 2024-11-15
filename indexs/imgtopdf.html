@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Img To PDF Transfer</title>
+    <link rel="stylesheet" href="/assets/style/imgtopdfstyle.css">
+    <link rel="icon" href="/assets/images/imagetopdficon1.png">
+    <script src="/assets/javascript/script.js"></script>
+</head>
+<body>
+  
+  <header id="head1">
+    <h1 id="textLogo1">MY IMAGE TRANSFER</h1>
+          <nav id="navs1">
+         
+              <a href="/indexs/imgtopdf.html" id="imgtopdf1">
+                IMAGE TO PDF </button>
+            </a>
+      
+         
+          
+         
+            <ul id="homeul">
+              <li id="liteste">
+                <a href="/main.html" id="homeul">
+                  HOME</button>
+                </li>
+              </a>
+             </ul>  
+          </nav>   
+  
+</header>
+    <h1 id="mytext1">IMG to PDF</h1>
+    <p id="p1t">Converta sua imagem para um arquivo em pdf
+
+      de maneira rápida e eficaz            </p>
+
+      
+
+      <div class="box">
+        
+          <div class="enviar-arquivos">
+            <input type="file" name="" onchange="loadimg(event)" accept=".png,.jpg,.jpeg" id="inputtest">
+           <h1 id="bhla">Selecionar Imagens</h1> 
+            
+          </div>
+          
+       <!----- <button id="selectimg" > Selecionar imagens</button>--->   
+        
+  
+      </div>
+      <div class="result" id="result">
+          <!-- <img id="ShowImg" src="" width="300px" height="250px" border-radius="50px">         -->
+      </div>
+
+      
+      
+         
+       
+       
+        
+         
+
+        
+     
+         <!-------------<a href="/indexs/pdftoimg.html">PDFToIMG</a>
+          <a href="/main.html">Home</a>
+          -------------> 
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js">
+          
+        </script>
+
+
+
+
+<div class="cont" id="cont">
+
+  <h1 id="textoteladeitada">Escolha um método para salvar seu pdf:</h1>
+  <!-- <li id="lip">  <p id="dsc1">Abaixe seu pdf em tela deitada</p></li> -->
+     
+      <div class="teladeitada" id="teladeitada">
+        <p id="ldscp"   onclick="PdfDown()" >Landscape</p>
+      </div>
+      <!-- <li id="lid2"> -->
+        <!-- <p id="dsc2">Abaixe seu pdf em tela na horizontal</p> </li> -->
+      <div class="telaempe" id="telaempe">   
+        <p id="lpt" onclick="PdfDownPortrait()">Portrait</p>
+     </div>
+    
+</div>
+</body>
+</html>

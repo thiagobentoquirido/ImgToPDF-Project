@@ -1,0 +1,431 @@
+*{
+      padding: 0;
+      margin: 0 auto;
+      transition: .2s ease-in-out;
+      box-sizing: border-box;
+}
+#head1{
+      background-color: #fff;
+      height: 55px;
+      top: -30px;
+      box-shadow: 3px -2px 6px 5px rgba(0,0,0,0.75);  
+      display: block;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+}
+#cont{
+      display: none;
+      margin-top: -300px;
+      margin-right: 1300px;
+      position: relative;
+      width:450px;
+      
+}
+
+.cont{
+      display: none;
+      margin-top: -300px;
+      width:450px;
+      margin: 0 auto;
+      height: 300px;
+      background-color: rgb(255, 255, 255);
+      border: 2px solid #000000;
+      border-radius: 10px;
+}#dsc1{
+      color: #000;
+      top:0;
+      margin: 0;
+      width: 0;
+      display: flex;
+      margin-top: 200px;
+      font-size: 13px;
+      height: 0;
+    
+
+}     #lip{
+     display: flex;
+     margin-left: -100px !important;
+     margin: 0 auto;
+     
+      width: 100px;
+      height: 100px;
+}
+#lid2{
+      display: flex;
+      margin-left: -150px !important;
+      margin: 0 auto;
+       height: 100px;  
+       width: 100px;
+ }
+
+#dsc2{
+      color: #000;
+      top:0;
+      text-wrap: nowrap;
+      width: 0;
+      
+      margin: 0;
+      display: flex;
+      margin-right: -65px;
+      margin-top: 200px;      
+      font-size: 13px;
+      height: 0;
+}
+.cont, ul{
+
+      display: flex;
+      text-align: center;
+      
+     
+      margin: 0 auto;
+      height: 300px;
+}
+.telaempe{
+      border: 2px solid #000000;
+      width: 150px;
+      padding: 0;
+      
+      top: 0;
+      margin: 0 auto;
+     
+      height: 100px;
+}
+
+#lpt{
+      transition: .2s ease-in-out;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 12px;
+      text-align: center;
+      color: #000000;
+}
+#lpt:hover{
+      font-size: 14px;
+      color: #b41313;
+      transition: .2s ease-in-out;
+}
+#ldscp{
+      transition: .2s ease-in-out;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 12px;
+      text-align: center;
+      color: #000000;
+}
+#ldscp:hover{
+      font-size: 14px;color: #b41313;
+      transition: .2s ease-in-out;
+}
+
+#textoteladeitada{
+      color: #1b1b1b;
+      text-align: center;     
+      font-family: "Noto Sans", sans-serif;  
+      font-weight: bold;
+      top: 0;
+      text-wrap: nowrap;
+      width: 0;
+      height: 0;
+      margin: 0 auto;
+      margin-left: 0;
+      font-size: 23px;
+      display: flex;
+}
+
+#telaempe{
+      margin-top: 100px;
+      text-align: center;
+}
+#teladeitada{
+      margin-top: 100px;
+      text-align: center;
+   
+
+}
+.teladeitada{
+      border: 2px solid #000000;
+      height: 100px;
+}
+#liteste{
+      color: #fff;
+
+}
+#imgtopdful{
+      padding: 0;
+      margin: 0 auto;
+      top: 0;
+      display: flex;
+}
+#pdftoimg1{
+      text-decoration: none;
+      display:inline;
+      margin-left: 50px;
+      color: #000000;
+      margin-top: -5px;
+      padding: 0;
+      cursor: pointer;
+      font-size: 15px;
+      align-items: center;
+      font-family: "Noto Sans", sans-serif;       
+      justify-content: center;
+      float: left;
+}
+#imgtopdf1:hover{
+      color:#db1414;
+}
+#pdftoimg1:hover{
+      color:#db1414;
+}
+
+#imgtopdf1{
+      text-decoration: none;
+      display:inline;
+      color: #080808;
+      font-size: 15px;
+      align-items: center;
+      margin-left: 20px;
+      margin-top: -5px;   
+      cursor: pointer;
+      font-family: sans-serif;
+      font-family: "Noto Sans", sans-serif;
+      justify-content: center;
+      float: left;
+}
+body{
+      align-items: center;  transition: .2s ease-in-out;
+      justify-content: center;
+      background-color:#f0ebeb;
+     
+  }
+  #textLogo1{
+      color: #0e0e0e;
+      align-items: baseline;
+      float: left;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-left: 20px;
+      font-size: 26px;
+      margin-right: 20px;
+      margin-top: 7px;
+}
+#uldawd23{
+      padding: 0;
+      margin: 0 auto;
+
+}
+#li3123{
+      padding: 0;
+      margin: 0 auto;
+}
+#mytext1{
+      align-items: center;
+      text-align: center;
+      font-family:sans-serif;
+      margin-top: 20px;
+      color:#2b2a2a;
+      padding: 0;
+      margin: 0;
+      height: 0;
+      font-size: 35px;
+      padding: 20px; 
+      text-wrap: nowrap;
+  }          
+#p1t{
+      font-family:sans-serif;
+      text-align: center;
+      align-items: center;
+      font-size: 25px;
+      margin-top: 15px;
+      height: 0;
+      top: auto;
+}
+/*configurando botao */
+.box{
+      align-items: center;
+      justify-items: center;
+      margin-top: 70px;
+
+      display: flex;
+      
+      
+      box-sizing: content-box;
+}
+#selectimgs{
+      align-items: center;
+      justify-items: center;
+      padding: 0;
+      background-color: #db1414;
+      margin: 0;
+      margin: auto;
+      margin-top: 30px;
+      font-weight: bold;
+      border-radius: 10px ;
+      color: #fff;
+      display: flex;
+      width: 350px;
+      border: 0px solid;
+      height: 80px;
+      font-size: 23px;
+      text-align: center;
+      align-self: center;
+      display: flex;
+      transition: .2s ease-in-out;
+}
+#selectimgs:hover{
+      transition: .2s ease-in-out;
+      background-color: #b41313;
+}
+#selectimgstext{
+      align-items: center;
+      justify-items: center;
+      text-align: center;
+      align-self: center;
+      font-size: 26px;
+}
+
+#homeul{
+      text-decoration: none;
+      display:inline;
+      color: #080808;
+      font-size: 16px;
+      align-items: center;
+      margin-left: 10px;
+      margin-top: -2px;   
+      padding: 0;
+      top: 0;
+      height: 0;
+      cursor: pointer;
+      font-family: sans-serif;
+      font-family: "Noto Sans", sans-serif;
+      justify-content: center;
+      float: left;
+}
+#homeul:hover{
+      transition: .2s ease-in-out;
+     color: #b41313;
+}
+#imgtopdful{
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      cursor: pointer;
+     
+}
+#pdftoimgul{
+      display: flex;
+      margin: 0 auto;
+ 
+      align-items: center;
+     
+} 
+
+#navs1{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin:  0 auto;
+    top:auto;
+
+}
+/*sistema enviar imgs*/
+.enviar-arquivos{
+      margin: 0 auto;   
+      cursor: pointer;
+      position: relative;
+      text-align: center;
+      padding: 15px;
+      background-color: #db1414;
+      margin-top: 30px;
+      font-weight: bold;
+      border-radius: 10px ;
+      color: #fff;
+      display: flex;
+      width: 350px;
+      border: 0px solid;
+      height: 80px;
+      top: 0;
+      font-size: 23px;
+      display: flex;
+      transition: .2s ease-in-out;
+      font-size: 22px;
+}
+#bhla{
+      text-align: center;
+      font-family: sans-serif;
+      font-family: "Noto Sans", sans-serif;
+      font-size: 25px;
+      display: flex;
+      height: 0;
+      top: 0;
+      margin-top: 8px;
+      margin: 10px 40px 15px;
+}
+
+.enviar-arquivos:hover{
+transition: .2s ease-in-out;
+background-color: #b41313;
+}
+
+.enviar-arquivos input{
+      position: absolute;
+      cursor: pointer;
+
+      left: 0;
+      text-align: center;
+      top:0;
+      width: 100%;
+      z-index: 1;
+      opacity: 0;
+      height: 80px;
+}
+.ShowImg{
+      margin: 0 auto;
+      border: 2px solid;
+      border-radius: 500px;
+      display: none;
+      box-sizing: border-box;
+      cursor: pointer;
+      flex-grow: 1;
+      list-style: none;
+      position: absolute;
+      align-items: center; 
+      justify-content: center;
+      flex-grow: 1;
+   
+}
+
+#result{
+      margin: 0 auto;
+      border-radius: 50px;
+      display: block;
+     
+      width: 300px;
+      max-width: 300px;
+      /* max-height: 250px; */
+      display: none;
+      height: 250px !important;
+      margin-top: -20px;
+
+      background-color: #555355;
+      border: 2px solid;
+      border-radius: 15px;
+      margin-top: 20px;
+      display: none;
+      box-sizing: border-box;
+      flex-grow: 1;
+      list-style: none;
+  
+      flex-grow: 1;
+}
+
+#text{
+      text-align: center;
+      font-family: sans-serif;
+      font-family: "Noto Sans", sans-serif;
+      font-size: 25px;
+      margin: 8px 90px;
+      text-wrap: nowrap;
+}
